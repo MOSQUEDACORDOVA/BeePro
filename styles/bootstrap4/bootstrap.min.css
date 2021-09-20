@@ -44,4 +44,7 @@
 .item_1 span,.home_title h2,.next_section i{
     color:var(--primario) !important;
 }
+.hamburger_container i{
+    color:var(--primario) !important;
+}
 /*# sourceMappingURL=bootstrap.min.css.map */
