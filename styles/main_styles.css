@@ -121,7 +121,7 @@ p a:hover::after
 ::selection
 {
 	background: #ffd9bf;
-	color: #ff6b09;
+	color: var(--primario-contraste);
 }
 p::selection
 {
@@ -273,7 +273,7 @@ section
 	height: 54px;
 	width: 174px;
 	text-align: center;
-	border: solid 2px #452b78;
+	border: solid 2px var(--primario);
 	background: transparent;
 }
 .button a
@@ -284,7 +284,7 @@ section
 	font-weight: 700;
 	line-height: 50px;
 	text-transform: uppercase;
-	color: #452b78;
+	color: var(--primario);
 }
 .prlx_parent
 {
@@ -325,21 +325,6 @@ section
 3.1 Header
 *********************************/
 
-.header
-{
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 128px;
-	background: rgba(27, 11, 51, 0.52);
-	z-index: 10;
-}
-.header.scrolled
-{
-	height: 80px;
-	background: rgba(27, 11, 51, 0.92);
-}
 
 /*********************************
 3.1.1 Logo
@@ -361,7 +346,7 @@ section
 .logo a span
 {
 	font-weight: 800;
-	color: #ff6b09;
+	color: var(--primario-contraste);
 	text-transform: uppercase;
 }
 
@@ -480,7 +465,7 @@ section
 }
 .hamburger_container:hover i
 {
-	color: #ff6b09;
+	color: var(--primario-contraste);
 }
 
 /*********************************
@@ -570,7 +555,7 @@ section
 	width: 100%;
 	height: 100%;
 	content: '';
-	background: #ff6b09;
+	background: var(--primario-contraste);
 	border-radius: 50%;
 	transform: scale(0);
 	opacity: 0;
@@ -584,7 +569,7 @@ section
 .hero_slider_nav div i
 {
 	font-size: 18px;
-	color: #a2baff;
+	color: var(--primario-claro);
 }
 .hero_slider_nav div:hover::before
 {
@@ -593,7 +578,7 @@ section
 }
 .hero_slider_nav div:hover i
 {
-	color: #251343;
+	color: var(--primario-claro);
 }
 .hero_side_text_container
 {
@@ -602,7 +587,7 @@ section
 	right: 285px;
 	width: 865px;
 	height: 236px;
-	background: #301b55;
+	background: var(--primario-contraste);
 	z-index: 9;
 	transform-origin: top right;
 	-webkit-transform: rotate(-90deg);
@@ -624,7 +609,7 @@ section
 	display: block;
 	font-size: 30px;
 	font-weight: 300;
-	color: #9878e2;
+	color: var(--primario-claro);
 }
 .hero_side_text p
 {
@@ -660,7 +645,7 @@ section
 }
 .double_arrow:hover i
 {
-	color: #ff6b09;
+	color: var(--primario-contraste);
 }
 
 /*********************************
@@ -693,7 +678,7 @@ section
 }
 .next_section_scroll:hover i
 {
-	color: #ff6b09;
+	color: var(--primario-contraste);
 }
 
 /*********************************
@@ -739,7 +724,7 @@ section
 }
 .menu_close:hover i
 {
-	color: #ff6b09;
+	color: var(--primario-contraste);
 }
 .menu ul
 {
@@ -764,7 +749,7 @@ section
 	width: 5px;
 	height: 5px;
 	border-radius: 50%;
-	background: #ff6b09;
+	background: var(--primario-contraste);
 	content: '';
 }
 .menu ul li.active a
@@ -782,7 +767,7 @@ section
 }
 .menu ul li a:hover
 {
-	color: #ff6b09;
+	color: var(--primario-contraste);
 }
 
 /*********************************
@@ -810,7 +795,7 @@ section
 }
 .icon_box_button:hover
 {
-	background: #452b78;
+	background: var(--primario);
 }
 .icon_box_button:hover a
 {
@@ -967,7 +952,7 @@ section
 	border: none;
 	text-indent: -9999px;
 	cursor: pointer;
-	background: #d6cbed;
+	background: var(--primario-claro);
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -984,7 +969,7 @@ section
 {
 	width: 18px;
 	height: 18px;
-	background: #452b78;
+	background: var(--primario);
 }
 
 /*********************************
@@ -1006,7 +991,7 @@ section
 	display: block;
 	font-size: 18px;
 	font-weight: 500;
-	color: #452b78;
+	color: var(--primario);
 	margin-top: 29px;
 }
 
@@ -1071,7 +1056,7 @@ section
 }
 .services_slider .owl-item.center .services_item_inner
 {
-	background: #452b78;
+	background: var(--primario);
 }
 .services_item
 {
@@ -1159,7 +1144,7 @@ section
 }
 .service_item_button:hover a
 {
-	color: #452b78;
+	color: var(--primario);
 }
 .services_slider .owl-item.center .services_item .services_item_inner h2
 {
@@ -1191,12 +1176,12 @@ section
 {
 	font-size: 40px;
 	line-height: 1;
-	color: #452b78;
+	color: var(--primario);
 }
 .services_slider .owl-item.active.center .services_item_inner .service_item_icon .icon
 {
 	font-size: 50px;
-	color: #9c83ce;
+	color: var(--primario-claro);
 }
 .services_slider .owl-item.center .services_item .services_item_inner .service_item_icon
 {
@@ -1218,13 +1203,13 @@ section
 {
 	width: 11px !important;
 	height: 11px !important;
-	background: #d6cbed;
+	background: var(--primario-claro);
 }
 .services_slider.owl-theme .owl-dots .owl-dot.active span
 {
 	width: 18px !important;
 	height: 18px !important;
-	background: #452b78;
+	background: var(--primario);
 }
 .services_slider_nav
 {
@@ -1255,11 +1240,11 @@ section
 .services_slider_nav i
 {
 	font-size: 18px;
-	color: #d4caeb;
+	color: var(--primario-claro);
 }
 .services_slider_nav:hover i
 {
-	color: #452b77;
+	color: var(--primario-contraste);
 }
 
 /*********************************
@@ -1296,7 +1281,7 @@ section
 .features_button:hover,
 .features_button_2:hover
 {
-	background: #452b78;
+	background: var(--primario);
 }
 .features_button:hover a,
 .features_button_2:hover a
@@ -1315,7 +1300,7 @@ section
 .cta
 {
 	width: 100%;
-	background: #b0d5db;
+	background: #9dc377;
 	
 }
 .cta_background
@@ -1395,7 +1380,7 @@ section
 }
 .text_line_button:hover
 {
-	background: #452b78;
+	background: var(--primario);
 }
 .text_line_button:hover a
 {
@@ -1409,7 +1394,7 @@ section
 .newsletter
 {
 	width: 100%;
-	background: #1b0d37;
+	background: var(--primario-contraste);
 }
 .newsletter_content
 {
@@ -1439,7 +1424,7 @@ section
 .newsletter_email
 {
 	height: 53px;
-	background: #452b78;
+	background: var(--primario);
 	border: none;
 	padding-left: 30px;
 	width: calc(100% - 174px - 26px);
@@ -1461,7 +1446,7 @@ section
 }
 .newsletter_submit_button:hover
 {
-	background: #452b78;
+	background: var(--primario);
 }
 .newsletter_submit_button:focus
 {
@@ -1485,7 +1470,7 @@ section
 }
 .footer_logo a
 {
-	color: #452b78;
+	color: var(--primario);
 	line-height: 1;
 }
 .footer_intro p
@@ -1517,7 +1502,7 @@ section
 }
 .footer_social ul li a:hover i
 {
-	color: #1b0d37;
+	color: var(--primario-contraste);
 }
 .footer_cr
 {

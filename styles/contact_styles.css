@@ -7,7 +7,7 @@ COLOR PALETTE
 
 #28262d - Headings Color
 #909090 - Body copy
-#452b78 - (Spanish Violet)
+var(--primario) - (Spanish Violet)
 
 
 [Table of Contents]
@@ -119,7 +119,7 @@ p a:hover::after
 ::selection
 {
 	background: #ffd9bf;
-	color: #ff6b09;
+	color: var(--primario-contraste);
 }
 p::selection
 {
@@ -271,7 +271,7 @@ section
 	height: 54px;
 	width: 174px;
 	text-align: center;
-	border: solid 2px #452b78;
+	border: solid 2px var(--primario);
 	background: transparent;
 }
 .button a
@@ -282,7 +282,7 @@ section
 	font-weight: 700;
 	line-height: 50px;
 	text-transform: uppercase;
-	color: #452b78;
+	color: var(--primario);
 }
 .prlx_parent
 {
@@ -330,13 +330,17 @@ section
 	left: 0;
 	width: 100%;
 	height: 128px;
-	background: rgba(27, 11, 51, 0.52);
+	background: rgba(255,255,255,0.1);
+	-webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
 	z-index: 10;
 }
 .header.scrolled
 {
 	height: 80px;
-	background: rgba(27, 11, 51, 0.92);
+	background: rgba(255,255,255,0.1);
+	-webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
 }
 
 /*********************************
@@ -359,7 +363,7 @@ section
 .logo a span
 {
 	font-weight: 800;
-	color: #ff6b09;
+	color: var(--primario-contraste);
 	text-transform: uppercase;
 }
 
@@ -478,7 +482,7 @@ section
 }
 .hamburger_container:hover i
 {
-	color: #ff6b09;
+	color: var(--primario-contraste);
 }
 
 /*********************************
@@ -526,7 +530,7 @@ section
 }
 .next_section_scroll:hover i
 {
-	color: #ff6b09;
+	color: var(--primario-contraste);
 }
 
 /*********************************
@@ -572,7 +576,7 @@ section
 }
 .menu_close:hover i
 {
-	color: #ff6b09;
+	color: var(--primario-contraste);
 }
 .menu ul
 {
@@ -597,7 +601,7 @@ section
 	width: 5px;
 	height: 5px;
 	border-radius: 50%;
-	background: #ff6b09;
+	background: var(--primario-contraste);
 	content: '';
 }
 .menu ul li.active a
@@ -615,7 +619,7 @@ section
 }
 .menu ul li a:hover
 {
-	color: #ff6b09;
+	color: var(--primario-contraste);
 }
 
 /*********************************
@@ -718,7 +722,7 @@ section
 	height: 45px;
 	border: none;
 	border-bottom: solid 1px #e1e1e1;
-	color: #452b78;
+	color: var(--primario);
 }
 
 .input_field::-webkit-input-placeholder,
@@ -766,27 +770,27 @@ section
 .input_field:focus::-webkit-input-placeholder,
 .text_field:focus::-webkit-input-placeholder
 {
-	color: #452b78 !important;
+	color: var(--primario) !important;
 }
 .input_field:focus:-moz-placeholder,
 .text_field:focus:-moz-placeholder
 {
-	color: #452b78 !important;
+	color: var(--primario) !important;
 }
 .input_field:focus::-moz-placeholder,
 .text_field:focus::-moz-placeholder
 {
-	color: #452b78 !important;
+	color: var(--primario) !important;
 } 
 .input_field:focus:-ms-input-placeholder,
 .text_field:focus:-ms-input-placeholder
 { 
-	color: #452b78 !important;
+	color: var(--primario) !important;
 }
 .input_field:focus::input-placeholder,
 .text_field:focus::input-placeholder
 {
-	color: #452b78 !important;
+	color: var(--primario) !important;
 }
 .text_field
 {
@@ -794,7 +798,7 @@ section
 	border: none;
 	border-bottom: solid 1px #e1e1e1;
 	margin-bottom: 12px;
-	color: #452b78;
+	color: var(--primario);
 }
 .reply_form_name,
 .reply_form_email
@@ -826,7 +830,7 @@ section
 .input_field:focus,
 .text_field:focus
 {
-	border-bottom: solid 1px #452b78 !important;
+	border-bottom: solid 1px var(--primario) !important;
 	box-shadow: none !important;
 	outline: none !important;
 }
@@ -837,19 +841,19 @@ section
 	height: 54px;
 	width: 174px;
 	text-align: center;
-	border: solid 2px #452b78;
+	border: solid 2px var(--primario);
 	background: transparent;
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	font-weight: 700;
 	line-height: 50px;
 	text-transform: uppercase;
-	color: #452b78;
+	color: var(--primario);
 	cursor: pointer;
 }
 .reply_submit_btn:hover
 {
-	background: #452b78;
+	background: var(--primario);
 	color: #FFFFFF;
 }
 
@@ -869,7 +873,7 @@ section
 }
 .contact_logo a
 {
-	color: #452b78;
+	color: var(--primario);
 	line-height: 1;
 }
 .contact_info_container p
@@ -894,7 +898,7 @@ section
 	height: 33px;
 	color: #FFFFFF;
 	font-size: 18px;
-	background: #452b78;
+	background: var(--primario);
 	border-radius: 50%;
 	float: left;
 }
@@ -937,7 +941,7 @@ section
 }
 .footer_logo a
 {
-	color: #452b78;
+	color: var(--primario);
 	line-height: 1;
 }
 .footer_intro p
@@ -969,7 +973,7 @@ section
 }
 .footer_social ul li a:hover i
 {
-	color: #1b0d37;
+	color: var(--primario-contraste);
 }
 .footer_cr
 {
