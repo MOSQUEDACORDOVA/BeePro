@@ -1300,7 +1300,7 @@ section
 .cta
 {
 	width: 100%;
-	background: #9dc377;
+	background: var(--primario);
 	
 }
 .cta_background
@@ -1497,7 +1497,7 @@ section
 }
 .footer_social ul li a i
 {
-	font-size: 12px;
+	font-size: 25px;
 	color: #bab6c3;
 }
 .footer_social ul li a:hover i
