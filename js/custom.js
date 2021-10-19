@@ -109,10 +109,11 @@ $(document).ready(function()
 				autoplay:false,
 				animateOut: 'slideOutDown',
 				animateIn: 'flipInX',
-				dots:false,
+				dots:true,
 				nav:false,
 				autoplayTimeout:5000,
 				autoplaySpeed:800,
+				arrows:false,
 				smartSpeed:800
 			});
 

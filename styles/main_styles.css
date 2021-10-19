@@ -1553,3 +1553,47 @@ section
 {
 	color: #28262d;
 }
+/* rodolfo*/
+.hero_slider_nav{
+	display: none;
+	
+}
+.hero_slider_container{
+	background-image: url('../images/fondo-slider.jpg');
+	background-size: cover;
+}
+.titulo-header{
+	font-size: 3rem;
+}
+.titulo-header span{
+	font-size: 3rem !important;
+	font-weight: bold !important;
+}
+.parrafo-header{
+	font-size: 1.7rem;
+}
+.hero_slider_container .tiendas-img{
+	width: 65% !important;
+	height: auto;
+}
+.hero_slider_container .owl-dots{
+	position: absolute;
+    top: 78%;
+    left: 3%;
+}
+.hero_slider_container .owl-theme .owl-dots .owl-dot span{
+	width: 20px;
+    height: 20px;
+    margin: 5px 7px;
+    background: transparent;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity 200ms ease;
+    border-radius: 30px;
+    border: 1px solid var(--primario);
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+	background-color: var(--primario);
+}
+
+/* fin rodolfo */
