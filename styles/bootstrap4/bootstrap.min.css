@@ -47,4 +47,7 @@
 .hamburger_container i{
     color:var(--primario) !important;
 }
+.fas{
+	color:var(--primario-claro) !important;
+}
 /*# sourceMappingURL=bootstrap.min.css.map */
