@@ -1720,4 +1720,11 @@ section
 		display: none !important;
 	}
 }
+@media(max-width:1280px){
+	.hero_slider_container .owl-dots {
+		position: absolute;
+		top: 90%;
+		left: 3%;
+	}
+}
 /* fin rodolfo */
