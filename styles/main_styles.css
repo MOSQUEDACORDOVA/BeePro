@@ -1599,11 +1599,125 @@ section
 .header{
 	height: 80px !important;
 }
+#CarouselOne{
+	align-items:center;
+	justify-content: center;
+}
+.telefonos{
+	width: 100%;
+	height: auto;
+}
 @media (max-width:1366px){
 	.hero_slider_container .owl-dots{
 		position: absolute;
 		top: 85%;
 		left: 3%;
+	}
+}
+@media (max-width:768px){
+	.titulo-header {
+		margin-top: -6rem;
+		font-size: 30px !important;
+		padding-right: 1.4rem;
+	}
+	.titulo-header span{
+		font-size: 30px !important;
+	}
+	.parrafo-header {
+		font-size: 20px !important;
+		padding-right: 2.2rem;
+	}
+	.telefonos {
+		position: absolute;
+		top: -200px;
+		right: -290px;
+		width: 500px !important;
+		height: auto;
+	}
+	#CarouselOne{
+		height: calc(100vh - 80px);
+	}
+}
+@media (max-width:411px){
+	.titulo-header {
+		margin-top: -6rem;
+		font-size: 30px !important;
+		padding-right: 1.4rem;
+	}
+	.titulo-header span{
+		font-size: 30px !important;
+	}
+	.parrafo-header {
+		font-size: 20px !important;
+		padding-right: 2.2rem;
+	}
+	.telefonos {
+		position: absolute;
+		top: -200px;
+		right: -290px;
+		width: 500px !important;
+		height: auto;
+	}
+	#CarouselOne{
+		height: calc(100vh - 80px);
+	}
+}
+@media (max-width:375px){
+	.titulo-header{
+		margin-top: -8rem;
+		font-size: 26px !important;
+		padding-right: 1.4rem;
+	}
+	.titulo-header span{
+		font-size: 26px !important;
+	}
+	.parrafo-header{
+		font-size: 17px !important;
+		padding-right: 2.2rem;
+	}
+	.telefonos {
+		position: absolute;
+		top: -180px !important;
+		right: -290px !important;
+		width: 500px !important;
+		height: auto;
+	}
+	.hero_slider_container{
+		background-size: 100% 100% !important;
+	}
+}
+@media (max-width:360px){
+	.titulo-header{
+		margin-top: -5rem;
+		font-size: 24px !important;
+		padding-right: 1.4rem;
+	}
+	.titulo-header span{
+		font-size: 24px !important;
+	}
+	.parrafo-header{
+		font-size: 17px !important;
+		padding-right: 2.2rem;
+	}
+	.telefonos {
+		position: absolute;
+		top: -160px !important;
+		right: -240px !important;
+		width: 400px !important;
+		height: auto;
+	}
+	.hero_slider_container{
+		background-size: 100% 100% !important;
+	}
+}
+
+
+@media(max-width:768px){
+	.tiendas-img{
+		display: none !important;
+	}
+	.next_section_scroll{
+		display: none !important;
 	}
 }
 /* fin rodolfo */
