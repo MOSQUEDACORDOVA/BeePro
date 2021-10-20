@@ -1610,7 +1610,7 @@ section
 @media (max-width:1366px){
 	.hero_slider_container .owl-dots{
 		position: absolute;
-		top: 90%;
+		top: 85%;
 		left: 3%;
 	}
 }
@@ -1719,11 +1719,20 @@ section
 	.next_section_scroll{
 		display: none !important;
 	}
+	#CarouselOne{
+		overflow: overlay;
+	}
+	#CarouselOne::-webkit-scrollbar {
+		display: none;
+	}
+	.container-fluid{
+		width: 100% !important;
+	}
 }
 @media(max-width:1280px){
 	.hero_slider_container .owl-dots {
 		position: absolute;
-		top: 95%;
+		top: 90%;
 		left: 3%;
 	}
 }
