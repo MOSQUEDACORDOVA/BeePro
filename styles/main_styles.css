@@ -1599,5 +1599,11 @@ section
 .header{
 	height: 80px !important;
 }
-
+@media (max-width:1366px){
+	.hero_slider_container .owl-dots{
+		position: absolute;
+		top: 85%;
+		left: 3%;
+	}
+}
 /* fin rodolfo */
