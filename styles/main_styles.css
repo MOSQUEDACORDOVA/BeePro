@@ -1778,5 +1778,8 @@ position: fixed;
 	.owl-item .container-fluid{
 		height: 50vh;
 	}
+	.hero_slider_container .owl-dots{
+		top:95%;
+	}
 }
 /* fin rodolfo */
