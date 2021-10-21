@@ -1,3 +1,18 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @charset "utf-8";
 /* CSS Document */
 
@@ -30,7 +45,16 @@
 /************
 2. 1440px
 ************/
-
+@media(min-width:140px){
+	.container-slider{
+		height: 50vh;
+	}
+	.hero_slider_container .owl-dots {
+		position: absolute;
+		top: 92%;
+		left: 3%;
+	}
+}
 @media only screen and (max-width: 1440px)
 {
 	.main_nav ul
@@ -50,6 +74,16 @@
 	.main_nav ul li
 	{
 		margin-right:10px;
+	}
+	.titulo-header{
+		font-size: 2.8rem;
+	}
+	.owl-item h1 .span-header{
+		font-size: 2.8rem;
+	}
+	.parrafo-header{
+		font-size: 1.8rem;
+		padding-right: 1.2rem;
 	}
 }
 
@@ -122,6 +156,16 @@
 	{
 		right: -15px;
 	}
+	.titulo-header{
+		font-size: 2rem;
+	}	
+	.owl-item h1 .span-header{
+		font-size: 2rem;
+	}
+	.parrafo-header{
+		font-size: 1.2rem;
+    padding-right: 3rem;
+	}
 }
 
 /************
@@ -130,7 +174,6 @@
 
 @media only screen and (max-width: 1024px)
 {
-	
 }
 
 /************
@@ -317,7 +360,16 @@
 
 @media only screen and (max-width: 768px)
 {
-	
+	.titulo-header{
+		font-size: 1.5rem;
+	}
+	.owl-item h1 .span-header{
+		font-size: 1.5rem;
+	}
+	.parrafo-header{
+		font-size: 1rem;
+    	padding-right: 2rem;
+	}
 }
 
 /************
@@ -603,14 +655,87 @@
 
 @media only screen and (max-width: 479px)
 {
-	
+	.titulo-header {
+		font-size: 1.8rem;
+	}
+	h1.titulo-header .span-header{
+		font-size: 1.8rem;
+	}
+	.owl-carousel .owl-item .tiendas-img{
+		display: none;
+	}
+	.parrafo-header {
+		font-size: 1.2rem;
+		padding-right: 3rem;
+	}
+	img.telefonos {
+		position: absolute;
+		left: 9rem;
+		top: 1.5rem;
+		width: 600px	 !important;
+	}
+	.container-slider{
+		height: 75vh;
+	}
+	.hero_slider_container{
+		background-position: bottom;
+	}
 }
 
 /************
 14. 400px
 ************/
 
-@media only screen and (max-width: 400px)
+@media only screen and (max-width: 375px)
 {
-	
+	h1.titulo-header{
+		font-size: 1.5rem;
+	}
+	h1.titulo-header span{
+		font-size: 1.5rem;
+	}
+	img.telefonos{
+		position: absolute;
+		left: 9rem;
+		top: 2rem;
+		width: 500px !important;
+	}
+}
+
+@media (max-width:360px){
+	.titulo-header {
+		font-size: 1.5rem;
+	}
+	h1.titulo-header .span-header{
+		font-size: 1.5rem;
+	}
+	.owl-carousel .owl-item .tiendas-img{
+		display: none;
+	}
+	.parrafo-header {
+		font-size: .9rem;
+		padding-right: 5rem;
+	}
+	img.telefonos{
+		position: absolute;
+		right: 0;
+		bottom: 0;
+	}
+	img.telefonos {
+		position: absolute;
+		left: 10rem;
+		top: 5rem;
+		width: 450px !important;
+	}
+	.container-slider{
+		height: 75vh;
+	}
+}
+@media(max-width:320px){
+	img.telefonos {
+		position: absolute;
+		left: 9rem;
+		top: 3rem;
+		width: 400px !important;
+	}
 }
