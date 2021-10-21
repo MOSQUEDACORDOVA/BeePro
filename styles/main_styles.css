@@ -1774,9 +1774,9 @@ section
 .fixed-header{
 position: fixed;
 }
-@media (min-width:1921px){
+@media (min-height:990px){
 	.owl-carousel .owl-item{
-		padding-top: 130px;
+		padding-top: 100px;
 	}
 }
 /* fin rodolfo */
