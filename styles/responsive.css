@@ -476,6 +476,7 @@
 	}
 	.header.scrolled
 	{
+		position: fixed;
 		height: 50px;
 		background: rgba(255,255,255,0.1);
 	-webkit-backdrop-filter: blur(30px);
