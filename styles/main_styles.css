@@ -1775,8 +1775,8 @@ section
 position: fixed;
 }
 @media (min-height:990px){
-	.owl-carousel .owl-item{
-		padding-top: 100px;
+	.owl-item .container-fluid{
+		height: 50vh;
 	}
 }
 /* fin rodolfo */
