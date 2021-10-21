@@ -1638,6 +1638,11 @@ section
 		height: calc(100vh - 80px);
 	}
 }
+@media (max-width:450px){
+	.hero_slider_container {
+		background-position: center;
+	}
+}
 @media (max-width:411px){
 	.titulo-header {
 		margin-top: -6rem;
@@ -1653,37 +1658,41 @@ section
 	}
 	.telefonos {
 		position: absolute;
-		top: -200px;
-		right: -290px;
-		width: 500px !important;
+		top: -260px	;
+		right: -350px	;
+		width: 600px	 !important;
 		height: auto;
 	}
+	
 	#CarouselOne{
 		height: calc(100vh - 80px);
 	}
+	.hero_slider_container {
+		background-position: center;
+	}
 }
 @media (max-width:375px){
-	.titulo-header{
-		margin-top: -8rem;
+	.titulo-header {
+		margin-top: -6rem;
 		font-size: 26px !important;
 		padding-right: 1.4rem;
 	}
 	.titulo-header span{
 		font-size: 26px !important;
 	}
-	.parrafo-header{
+	.parrafo-header {
 		font-size: 17px !important;
-		padding-right: 2.2rem;
+		padding-right: 3rem	 !important;
 	}
 	.telefonos {
 		position: absolute;
-		top: -180px !important;
-		right: -290px !important;
-		width: 500px !important;
+		top: -240px !important;
+		right: -320px !important;
+		width: 550px !important;
 		height: auto;
 	}
-	.hero_slider_container{
-		background-size: 100% 100% !important;
+	.hero_slider_container {
+		background-position: center;
 	}
 }
 @media (max-width:360px){
@@ -1701,13 +1710,37 @@ section
 	}
 	.telefonos {
 		position: absolute;
-		top: -160px !important;
-		right: -240px !important;
-		width: 400px !important;
+		top: -220px !important;
+		right: -280px !important;
+		width: 500px !important;
 		height: auto;
 	}
-	.hero_slider_container{
-		background-size: 100% 100% !important;
+	.hero_slider_container {
+		background-position: center;
+	}
+}
+@media (max-width:320px){
+	.titulo-header {
+		margin-top: -5rem;
+		font-size: 19px !important;
+		padding-right: 1.4rem;
+	}
+	.titulo-header span{
+		font-size: 19px !important;
+	}
+	.parrafo-header {
+		font-size: 13px !important;
+		padding-right: 4rem	 !important;
+	}
+	.telefonos {
+		position: absolute;
+		top: -200px	 !important;
+		right: -280px	 !important;
+		width: 460px	 !important;
+		height: auto;
+	}
+	.hero_slider_container {
+		background-position: center;
 	}
 }
 
