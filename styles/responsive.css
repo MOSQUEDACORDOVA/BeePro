@@ -46,6 +46,12 @@
 		right: -55px;
 	}
 }
+@media( max-width: 1366px){
+	.main_nav ul li
+	{
+		margin-right:10px;
+	}
+}
 
 /************
 3. 1380px

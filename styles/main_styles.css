@@ -1774,12 +1774,26 @@ section
 .fixed-header{
 position: fixed;
 }
-@media (min-height:990px){
+@media (max-height:750px){
 	.owl-item .container-fluid{
 		height: 50vh;
 	}
 	.hero_slider_container .owl-dots{
-		top:95%;
+		top:90%;
+	}
+}
+.hero_slider_nav_right{
+	display: none !important;
+}
+@media(max-width:1024px){
+	.titulo-header{
+		font-size: 2rem !important;
+	}
+	.titulo-header span{
+		font-size: 2rem !important;
+	}
+	.parrafo-header{
+		font-size: 1.4rem;
 	}
 }
 /* fin rodolfo */

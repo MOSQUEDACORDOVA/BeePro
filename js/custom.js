@@ -63,7 +63,7 @@ $(document).ready(function()
 
 	function setHeader()
 	{
-		if(window.innerWidth < 1050)
+		if(window.innerWidth < 992)
 		{
 			if($(window).scrollTop() > 100)
 			{
@@ -85,7 +85,7 @@ $(document).ready(function()
 				header.removeClass('scrolled');
 			}
 		}
-		if(window.innerWidth > 1050 && menuActive)
+		if(window.innerWidth > 991 && menuActive)
 		{
 			closeMenu();
 		}
