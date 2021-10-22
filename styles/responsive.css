@@ -686,6 +686,12 @@
 	.hero_slider_container{
 		background-position: bottom;
 	}
+	.telefono-col{
+    	height: 100vh;
+	}
+	.owl-carousel.owl-drag .owl-item{
+		overflow: hidden;
+	}
 }
 
 /************
