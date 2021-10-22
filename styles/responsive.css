@@ -688,6 +688,8 @@
 	}
 	.telefono-col{
     	height: 100vh;
+		width: 165px;
+		height: 50px;
 	}
 	.owl-carousel.owl-drag .owl-item{
 		overflow: hidden;
