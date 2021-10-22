@@ -1615,5 +1615,9 @@ position: fixed;
 .hero_slider_nav_right{
 	display: none ;
 }
-
+.logo-img{
+	vertical-align:-10px;
+	height:50px; 
+	width:165px;
+}
 /* fin rodolfo */
