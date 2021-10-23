@@ -138,6 +138,12 @@
 	{
 		padding-left: 0px;
 	}
+	.main_nav ul li a{
+		font: 13px;
+	}
+	.main_nav ul li{
+		margin-right: 7px;
+	}
 }
 
 /************
