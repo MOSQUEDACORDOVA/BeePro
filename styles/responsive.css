@@ -74,9 +74,11 @@
 	}
 }
 @media( max-width: 1366px){
-	.main_nav ul li
-	{
-		margin-right:10px;
+	.main_nav ul li a{
+		font: 13px;
+	}
+	.main_nav ul li{
+		margin-right: 7px;
 	}
 	.titulo-header{
 		font-size: 2.8rem;
@@ -137,12 +139,6 @@
 	.footer_logo
 	{
 		padding-left: 0px;
-	}
-	.main_nav ul li a{
-		font: 13px;
-	}
-	.main_nav ul li{
-		margin-right: 7px;
 	}
 }
 
